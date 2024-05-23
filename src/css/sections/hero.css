@@ -218,3 +218,19 @@
   place-items: center;
   z-index: 100;
 }
+@media (max-height: 970px) {
+  .headline {
+    position: absolute;
+    font-size: 4rem;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 100;
+    top: 0;
+    text-shadow: 0 0 1rem rgba(0, 0, 0, 0.567);
+  }
+  .cta-btn {
+    scale: 0.7;
+  }
+  .cta-btn:hover {
+    scale: 0.9;
+  }
+}
